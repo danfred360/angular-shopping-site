@@ -1,12 +1,14 @@
-<div class="thumbnail">
-  <img src="{{$ctrl.product.image}}" />
+<div class="card mb-3">
+  <img src="{{$ctrl.product.image}}" class="card-img-left"/>
 
-  <div class="caption">
+  <div class="card-body">
     <div>
-      <h2 class="section-heading">{{$ctrl.product.name}}</h2>
+      <h5 class="card-heading">{{$ctrl.product.name}}</h2>
+        <p class="card-text">{{$ctrl.product.description}}</p>
+      <p class="card-text"><small class="text-muted">Price: ${{$ctrl.product.price}}</small></p>
     </div>
     <div>
-      <a ui-sref="productDetails({productId:$ctrl.product.id})">More details</a>
+      <a class="btn btn-primary" ui-sref="productDetails({productId:$ctrl.product.id})">More details</a>
     </div>
   </div>
 </div>

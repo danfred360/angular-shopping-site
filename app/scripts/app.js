@@ -46,3 +46,5 @@ angular
         }
       });
   });
+
+  Snipcart.api.cart.currency('usd');

@@ -1,6 +1,6 @@
 [{
 	"name": "Variable",
-	"price": "8.00",
+	"price": "8.00",	
 	"id": "1",
 	"url": "http://snipcart-angular.netlify.com/data/products.json",
 	"description": "This variable will store your data so you can access it later.",
