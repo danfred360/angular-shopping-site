@@ -1,22 +1,72 @@
 [{
-	"name": "Piña colada",
+	"name": "Variable",
 	"price": "8.00",
 	"id": "1",
 	"url": "http://snipcart-angular.netlify.com/data/products.json",
-	"description": "The piña colada is a sweet cocktail made with rum, coconut cream or coconut milk, and pineapple juice",
-	"image": "http://snipcart-angular.netlify.com/images/pina-colada.3f31d970.png"
+	"description": "This variable will store your data so you can access it later.",
+	"image": "images/products/variable.png"
 }, {
-	"name": "Margarita",
+	"name": "Function",
 	"price": "9.00",
 	"id": "2",
 	"url": "http://snipcart-angular.netlify.com/data/products.json",
-	"description": "The margarita is a cocktail made with tequila and citrus fruit juice.",
-	"image": "http://snipcart-angular.netlify.com/images/margarita.146b5f30.png"
+	"description": "This function can do stuff for you; just buy it and call it.",
+	"image": "images/products/function.png"
 }, {
-	"name": "Beer",
+	"name": "Class",
 	"price": "5.00",
 	"id": "3",
 	"url": "http://snipcart-angular.netlify.com/data/products.json",
-	"description": "You know what beer is ;)",
-	"image": "http://snipcart-angular.netlify.com/images/cerveza.843f6e8f.png"
-}]
+	"description": "This class can hold your data and the functions that gather and preform operations on your data all in one place.",
+	"image": "images/products/class.png"
+}, {
+	"name": "Dictionary",
+	"price": "5.00",
+	"id": "4",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "This dictionary can store your data in a nice organized way that makes it wasy to pick out specifically what you want later, without looping.",
+	"image": "images/products/dictionary.png"
+}, {
+	"name": "List",
+	"price": "5.00",
+	"id": "5",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "This list, or array, will store your data in a list that can be looped through or sorted.",
+	"image": "images/products/list.png"
+}, {
+	"name": "For Loop",
+	"price": "5.00",
+	"id": "6",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "This loop will run once for each thing in the list of stuff.",
+	"image": "images/products/for_loop.png"
+}, {
+	"name": "If Statement",
+	"price": "5.00",
+	"id": "7",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "The if statement will run if the condition in the statement definition evaluates to true, or else it will run the statement in the else clause.",
+	"image": "images/products/if_loop.png"
+}, {
+	"name": "Elif Statement",
+	"price": "5.50",
+	"id": "8",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "This statement is a better and improved if statement that let's you make multiple checks in an easier way.",
+	"image": "images/products/elif_loop.png"
+}, {
+	"name": "Try Clause",
+	"price": "75.00",
+	"id": "9",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "You can buy this clause and use it if you're not sure if your code will work.",
+	"image": "images/products/try_clause.png"
+}, {
+	"name": "While Loop",
+	"price": "5.00",
+	"id": "10",
+	"url": "http://snipcart-angular.netlify.com/data/products.json",
+	"description": "This loop will keep executing until the check is false.",
+	"image": "images/products/while_loop.png"
+}
+]
